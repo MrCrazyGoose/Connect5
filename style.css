@@ -1,0 +1,35 @@
+body {
+    background-color: blue;
+    color: white;
+    font-size: 35px;
+    font-family: monospace;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 1vh 1vw;
+    margin: auto;
+}
+
+th {
+    height: 45px;
+}
+
+td {
+    background-color: white;
+    border: 1px solid darkmagenta;
+    box-sizing: border-box;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    transition: all 0.5s;
+    /* margin: 0.5vh 0.5vw; */
+}
+
+td.red {background-color: red;}
+
+p.red span {color: red; font-weight: 900;}
+
+td.yellow {background-color: yellow;}
+
+p.yellow span {color: yellow; font-weight: 900;}
